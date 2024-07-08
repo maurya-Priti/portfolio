@@ -91,6 +91,8 @@ button{
 /* =============HOME START=========== */
 #home{
     margin-top: 6rem;
+        height: calc(100vh-96px);
+
     padding: 5rem 2rem 5rem 2rem;
     display: flex;
     flex-wrap: wrap;
