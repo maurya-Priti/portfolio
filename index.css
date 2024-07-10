@@ -17,6 +17,7 @@ html, body {
 
 }
 
+
 /* =============HEADER START=========== */
 header{
     width: 100%;
@@ -615,7 +616,7 @@ button{
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     z-index: 9999; /* Ensure it's on top of other content */
   }
-  .project-demo-video{
+  .project-images img{
     width: 40rem;
 
     max-width: 95%;
@@ -937,25 +938,31 @@ button{
     .navbar{
       position: fixed;
       color: white;
-      background-color: #00A9DF;
+      background-color: #13315C;
+      
       left: -100%;
       top: 4rem;
       flex-direction: column;
       align-items: center;
       gap: 2rem;
       width: 100%;
+      height: 100%;
+      justify-content: center;
       border-radius: 10px;
       text-align: center;
       transition: 0.3s;
       box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);      
   
 }
+
 .navbar.active {
   left: 0;
 }
 .navbar a {
   margin: 0.5rem 0;
   border-bottom: none;
+  color: white !important;
+
 }
 nav a.active{
   color: white !important;
