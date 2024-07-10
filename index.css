@@ -616,14 +616,17 @@ button{
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     z-index: 9999; /* Ensure it's on top of other content */
   }
-  .project-images img{
+  .project-images img, .project-demo-video{
     width: 40rem;
 
-    max-width: 95%;
-    
-
- 
+    border: 1px solid #010F13; /* Border color to match the theme */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
 }
+.project-tech-stack{
+  font-size: 1.5rem;
+}
+
 
 .popup-content-flex{
     display: flex;
@@ -647,18 +650,31 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
  
-  .popup-close {
+  .popup-close i {
     text-align: right;
     margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding-right: 1.5rem;
+    font-size: 2rem;
+    
   }
-  
-  .popup-close button {
+  .popup-close i:hover{
+    transform: scale(1.1);
+  }
+  /* .popup-close button {
     padding: 8px 15px;
-    background-color: #f0f0f0;
+    background-color:none;
     border: none;
+    color: black;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 3px;
-  }
+    top: 0%;
+    right: 0%;
+
+  } */
   
   /* =============PORTFOLIO SECTION END=========== */
 
